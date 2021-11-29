@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: borderbox;
+}
+html{
+    font-size: 65.5%;
+}
+body{
+    background: #f9f9f9;
+}
+
+.padControls{
+    width: 50%;
+    height: 10rem;
+    
+    
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.color-block-container{
+    width: 100vw;
+    min-height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.color-block-container div{
+    width: 25%;
+    height: 10rem;
+    width: 10rem;
+   
+}
+
+.pad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    height: 8rem;
+    width: 8rem;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.08),
+                -2px -2px 10px 0 rgba(255,255,255,1);
+}
+.pad p{
+    opacity: 0.5;
+}
